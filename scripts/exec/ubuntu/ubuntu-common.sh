@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Temp paths and files
-export SRC_PKG="http://archive.ubuntu.com/ubuntu/dists/$REL/main/installer-$ARCH/current/images/netboot/ubuntu-installer/$ARCH/"
+export SRC_PKG="http://br.archive.ubuntu.com/ubuntu/dists/$REL/main/installer-$ARCH/current/images/netboot/ubuntu-installer/$ARCH/"
 export TRG_NME="ubuntu"
 export TRG_PKG=$TRG_NME
 
