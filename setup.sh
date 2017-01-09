@@ -6,6 +6,8 @@ echo "|          PXE SETUP WIZARD          |"
 echo "+------------------------------------+"
 echo ""
 
+apt-get -y install git tftpd-hpa unzip wget curl p7zip-full xzip xz-utils cpio
+
 cd $(dirname "$0")
 export TFTP_PATH=$(pwd)
 export SCRIPT_PATH=$TFTP_PATH/scripts/exec
